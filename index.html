@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ETF Valuation Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <h1>ETF Valuation Dashboard</h1>
+  </header>
+  <main>
+    <section class="input-section">
+      <input type="text" id="tickerInput" placeholder="Enter ETF Ticker (e.g., SPY)" />
+      <button id="submitBtn">Submit</button>
+    </section>
+    <section class="chart-section">
+      <canvas id="valuationChart"></canvas>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 ETF Valuation Dashboard</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
